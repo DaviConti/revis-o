@@ -1,5 +1,6 @@
 alert('ola mundo')
 
+/* primeiro
 function somador() {
    let total = 0;
    while (true) {
@@ -18,4 +19,21 @@ function somador() {
 }
 
 somador();
-h
+*/
+
+/* segundo
+function contagemRegressiva() {
+   let contador = 10;
+   const intervalo = setInterval(() => {
+       if (contador === 0) {
+           console.log("Lançamento!");
+           clearInterval(intervalo);
+       } else {
+           console.log(contador);
+           contador--;
+       }
+   }, 1000);
+}
+
+contagemRegressiva();
+*/
