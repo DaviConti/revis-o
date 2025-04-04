@@ -68,3 +68,63 @@ function balancoFinanceiro() {
 
 balancoFinanceiro();
 */
+
+/* quarto
+function ordenarDecrescente() {
+   let numeros = [];
+   
+   for (let i = 1; i <= 4; i++) {
+       let num = parseInt(prompt(`Digite o ${i}º número inteiro:`));
+       if (!isNaN(num)) {
+           numeros.push(num);
+       } else {
+           alert("Por favor, digite um número inteiro válido.");
+           i--; // Para repetir a entrada inválida
+       }
+   }
+   
+   numeros.sort((a, b) => b - a);
+   
+   console.log("Números em ordem decrescente:", numeros.join(", "));
+}
+
+ordenarDecrescente();
+*/
+
+/* quinto
+function transformarParImpar() {
+   let num = parseInt(prompt("Digite um número inteiro:"));
+   
+   if (!isNaN(num)) {
+       if (num % 2 === 0) {
+           num += 1; // Transforma par em ímpar
+       } else {
+           num -= 1; // Transforma ímpar em par
+       }
+       console.log("Número transformado:", num);
+   } else {
+       alert("Por favor, digite um número inteiro válido.");
+   }
+}
+
+transformarParImpar();
+*/
+
+/*seis
+function verificarLetra() {
+   let letra = prompt("Digite uma letra:").toLowerCase();
+   let vogais = ["a", "e", "i", "o", "u"];
+   
+   if (letra.length === 1 && letra.match(/[a-z]/)) {
+       if (vogais.includes(letra)) {
+           console.log("A letra digitada é uma VOGAL.");
+       } else {
+           console.log("A letra digitada é uma CONSOANTE.");
+       }
+   } else {
+       alert("Por favor, digite apenas uma letra válida.");
+   }
+}
+
+verificarLetra();
+*/
